@@ -69,8 +69,8 @@ Locked down ticket creation so it's not wide open to anonymous submissions:
 ### 6. Users (Customers)
 **Agent Panel → Users → Add New**
 
-- Karen
-- Ken
+- Caren
+- Sofia
 
 ### 7. SLA Plans
 **Admin Panel → Manage → SLA**
@@ -81,7 +81,7 @@ Defined response-time expectations by severity:
 |---|---|---|
 | Sev-A | 1 hour | 24/7 |
 | Sev-B | 4 hours | 24/7 |
-| Sev-C | 8 hours | Business Hours |
+| Sev-C | 8 hours | 24/5 (Business Hours) |
 
 ### 8. Help Topics
 **Admin Panel → Manage → Help Topics**
