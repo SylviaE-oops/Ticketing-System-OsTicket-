@@ -1,6 +1,6 @@
  osTicket Lab — Part 1: Environment Setup & Installation
 
-Provisioning a Windows 10 Azure VM and building the full web stack (IIS + PHP + MySQL) needed to run **osTicket v1.15.8** from scratch.
+Provisioning a Windows 11 Azure VM and building the full web stack (IIS + PHP + MySQL) needed to run **osTicket v1.15.8** from scratch.
 
 > No screenshots are included — steps are documented in enough detail to be reproduced without them.
 
@@ -28,7 +28,7 @@ Simulate standing up an internal help desk server from the ground up — provisi
 | Component | Purpose |
 |---|---|
 | **Microsoft Azure** | Cloud hosting for the Windows 10 VM |
-| **Windows 10 (4 vCPUs)** | Guest OS for the web server |
+| **Windows 11 (4 vCPUs)** | Guest OS for the web server |
 | **IIS (Internet Information Services)** | Web server, with CGI enabled |
 | **PHP Manager for IIS** | Bridges PHP to IIS |
 | **URL Rewrite Module** | Required by osTicket for clean URLs/routing |
@@ -70,7 +70,7 @@ Created a Windows 10 virtual machine in Azure:
 | Setting | Value |
 |---|---|
 | VM Name | `osticket-vm` |
-| OS | Windows 10 |
+| OS | Windows 11 |
 | vCPUs | 4 |
 | Username | `labuser` |
 | Password | *(stored in a password manager — see [Security Notes](#security-notes))* |
